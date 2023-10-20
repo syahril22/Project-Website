@@ -1,0 +1,187 @@
+/* css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css clear */
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/* my style */
+body {
+    font: 16px arial ;
+}
+
+/* style navbar */
+.navbar {
+    width: 100%;
+    margin-bottom: 200px;
+    background-color: #ffff;
+    border-bottom: 5px solid #c6d4e1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 55px;
+    float: left;
+    margin-right: 33%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 30px 5px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #44749d;
+    color: white;
+}
+
+
+/* style banner */
+.banner {
+    height: 400px;
+    background-image: url(img/bg5.jpg);
+    background-size: cover;
+    background-position: -30px;
+    opacity: 0.8;
+    margin-top: 79px;
+    border-top: solid #44749d 5px;
+    border-bottom: solid #44749d 5px;
+    
+}
+
+.banner h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    line-height: 340px;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+}
+
+
+/* style Content */
+.content {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content p {
+    font: 18px/30px arial;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.content .sejarah {
+    height: 80px; 
+    font-weight: bold;
+    color: #ffff;
+    background-color: #44749d;
+    padding-left: 50px;
+    line-height: 80px;
+}
+
+.content .sumber {
+    font: 18px arial;
+}
+
+.content .sumber a {
+    text-decoration: none;
+    color: #44749d;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.content .sumber a:hover {
+    background-color: #44749d;
+    color: #ffff;
+}
+
+.content .tag {
+    font: 18px arial;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.content .tag a {
+    font: 16px arial;
+    font-weight: bold;
+    background-color: #44749d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+
+/* style footer */

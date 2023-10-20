@@ -1,0 +1,8 @@
+/* kalo kaya gini doang maka element a tidak akan berubah warna */
+body {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* jika ingin berubah lakukan ini */
+a { color: inherit;}

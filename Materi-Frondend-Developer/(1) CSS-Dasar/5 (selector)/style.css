@@ -1,0 +1,36 @@
+/* selecttor dengan element html */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: green;
+}
+
+ul li a {
+    color: red;
+}
+
+ol li a {
+    color: orange;
+}
+
+a {
+    color: palevioletred;
+}
+
+
+
+/* selector dengan class & id */
+.p1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+#p2 {
+    color: brown;
+}
+
+a.p1 {
+    text-decoration: none;
+}

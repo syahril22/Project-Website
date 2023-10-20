@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float-css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- 
+        cara kedua untuk menghentikan/memberihkan float adalah dengan div kosong dan memanfaatkan properti clear pada css
+        
+        properti pada clear :
+        - left (untuk menghentikan / membersihkan float yanf left)
+        - right (untuk menghentikan / membersihkan float yanf right)
+        - both (untuk menghentikan / memberihkan float left dan right)
+    -->
+
+    <!-- penggunaan untuk membuat image gallery -->
+    <div class="container-image-gallery">
+        <div class="kotak">1</div>
+        <div class="kotak">2</div>
+        <div class="kotak">3</div>
+        <div class="kotak">4</div>
+        <div class="kotak">5</div>
+        <div class="kotak">6</div>
+        <div class="kotak">7</div>
+        <div class="kotak">8</div>
+        <div class="kotak">9</div>
+        <div class="kotak">10</div>
+        
+        <!-- 
+            ini contoh penggunaanya, jadi akan menghasilkan tulisan yang ada di <p> akan berada di bawah dari elemen di atas
+        -->
+        <div class="clear"></div>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam rerum voluptate veniam? Sint, explicabo! Commodi nam unde placeat voluptatibus mollitia recusandae iste neque repellendus ipsum, aliquam voluptatum vitae, quisquam quo?</p>
+
+    </div>
+    
+</body>
+</html>

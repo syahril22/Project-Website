@@ -1,0 +1,267 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* mystyle */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #3795BD;
+}
+
+.header img {
+    width: 121px;
+    height: 110px;
+    padding-top: 20px;
+    padding-left: 130px;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #2F58CD;
+    text-align: center;
+    color: #ffff;
+    /* position: fixed;
+    left: 0;
+    top: 0; */
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    line-height: 49px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 17px 10px;
+}
+
+.navbar a:hover {
+    background-color: rebeccapurple;
+}
+
+.content {
+    width: 1015px;
+    margin: auto;
+}
+
+.content .p1 {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #878787;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content .p2 {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #878787;
+    font-weight: bold;
+}
+
+.content .tanggal {
+    color: #878787;
+    margin-bottom: 20px;
+}
+
+.sosmed {
+    height: 60px;
+    float: right;
+}
+.sosmed p {
+    font-size: 14px;
+    color: #878787;
+    font-weight: bold;
+    line-height: 60px;
+    float: left;
+    padding-right: 5px;
+}
+
+.sosmed a img {
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.foto {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    background-position: 0 -220px;
+}
+
+.ketbanner {
+    font-size: 14px;
+    color: #878787;
+    margin-top: 10px;
+}
+
+.isi {
+    margin-top: 20px;
+}
+
+.isi p {
+    margin-bottom: 20px;
+    font: 17px/30px arial;
+    text-align: justify;
+}
+
+.isi .sub1 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    background-color: #3795BD;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: #2F58CD;
+    color: #fff;
+}
+
+.baris1 {
+    padding: 30px 124px ;
+}
+
+.baris1 p {
+    float: left;
+}
+
+.baris1 img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 50px;
+    margin-top: -6px;
+}
+
+.baris2 {
+    padding: 20px 124px;
+    color: #fff;
+    width: 600px;
+}
+
+.baris3 {
+    padding: 20px 124px;
+    color: #fff;
+    position: relative;
+}
+
+.baris3 p {
+    width: 600px;
+}
+
+.baris3 img {
+    width: 80px;
+    height: 80px;
+    padding-top: -80px;
+    position: absolute;
+    top: -25px;
+    left: 1060px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

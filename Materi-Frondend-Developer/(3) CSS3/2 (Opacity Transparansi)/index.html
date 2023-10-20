@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity-Css3</title>
+    <style>
+
+        .banner {
+            background-image: url(img/bg.jpg);
+            width: 40%;
+            height: 500px;
+            background-position: -70px;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .non {
+            background-image: url(img/bg.jpg);
+            width: 40%;
+            height: 500px;
+            background-position: -70px;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 8px;
+            left: 600px;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+        }
+
+        .kotak1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            opacity: 0.3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Opacity Merupakan properti untuk memeberikan transparansi pada terhadap element, sifat dari opacity adalah semua element yang terdapat pada parent yang sudah di kasih properti opacity maka child nya akan ikut menjadi transparan
+     -->
+    
+    <!-- gambar dengan opacity -->
+    <div class="banner"></div>
+
+    <!-- gambar tanpa opacity -->
+    <div class="non"></div>
+
+    <!-- -------------------------- -->
+
+    <div class="kotak">
+        <div class="kotak1"></div>
+    </div>
+
+</body>
+</html>

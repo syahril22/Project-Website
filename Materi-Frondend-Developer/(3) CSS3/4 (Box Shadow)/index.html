@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Shadow</title>
+
+    <style>
+        .kotak1 {
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+            margin: 20px 60px;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            text-align: center;
+        }
+
+        .kotak2 {
+            width: 300px;
+            height: 300px;
+            background-color: royalblue;
+            margin: 20px 60px 20px 0;
+            box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            text-align: center;
+        }
+
+        .kotak3 {
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            margin: 20px 0;
+            box-shadow: -10px -10px;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .kotak4 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(255, 0, 195);
+            margin:  40px 60px;
+            box-shadow: -10px -10px 5px 20px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            text-align: center;
+        }
+
+        .kotak5 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(21, 255, 0);
+            margin:  40px 60px;
+            box-shadow: inset 10px 5px 25px 20px black;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .kotak6 {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(21, 255, 0);
+            margin:  40px 60px;
+            box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .kotak7 {
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+            margin: 20px 60px;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7), -10px -10px 5px rgba(0, 0, 0, 0.7);
+            display: inline-block;
+            text-align: center;
+        }
+
+        h3 {
+            line-height: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Box Shadow berfungsi Untuk membuat efek bayangan pada sebuah element HTML
+
+        value pada properti box shadow 6
+        - inset     : digunakan untuk membuat sebuah shadow yang mengarah ke dalam
+        - x-offset  : untuk menentukan efek bayangan ada di kanan/kiri
+        - y-offset  : untuk menentukan efek bayangan ada di atas/bawah
+        - blur      : untuk menentukan seberapa blur dari bayangan 
+        - spread    : untuk menentukan seberapa besar bayangan
+        - color     : warna bayangan, bisa default (hitam),bisa color, dan RGBA     
+        
+        cara penulisan 
+        box-shadow : inset  x-offsed  y-offsed blur  spread color;
+     -->
+
+    <div class="kotak1">
+        <h3>Bayangan di kanan bawah</h3>
+    </div>
+
+    <div class="kotak2">
+        <h3>Bayangan di kiri atas</h3>
+    </div>
+
+    <div class="kotak3">
+        <h3>Box Shadow tanpa value blur</h3>
+    </div>
+
+    <div class="kotak4">
+        <h3>Box Shadow dengan value spread</h3>
+    </div>
+
+    <div class="kotak5">
+        <h3>Box Shadow dengan value inset</h3>
+    </div>
+
+    <div class="kotak6">
+        <h3>Box Shadow dengan value inset</h3>
+    </div>
+
+    <div class="kotak7">
+        <h3>Semua sisi memiliki shadow</h3>
+    </div>
+
+</body>
+</html>

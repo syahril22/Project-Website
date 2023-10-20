@@ -1,0 +1,58 @@
+.kotak1 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #787878;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px 0;
+}
+
+.kotak2 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 60px 0 60px 0;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px 0;
+}
+
+.kotak3 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px 0;
+}
+
+.kotak4 {
+    width: 150px;
+    height: 75px;
+    border: 10px solid blue;
+    border-radius: 300px 300px 0 0;
+    text-align: center;
+    line-height: 75px;
+    margin: 10px 0;
+}
+
+.kotak5 {
+    width: 150px;
+    height: 75px;
+    border: 10px solid blue;
+    border-radius: 0 0 300px 300px;
+    text-align: center;
+    line-height: 75px;
+    margin: 10px 180px 0;
+}
+
+.kotak6 {
+    width: 150px;
+    height: 150px;
+    border: 5px solid orange;
+    border-radius: 10px 50% 50% 10px;
+    text-align: center;
+    line-height: 150px;
+}

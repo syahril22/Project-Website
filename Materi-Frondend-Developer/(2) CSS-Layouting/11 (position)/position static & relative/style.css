@@ -1,0 +1,38 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+/* style static & relative */
+.kotak1 {
+    background-color: greenyellow;
+}
+
+.kotak2 {
+    background-color: salmon;
+    position: relative;
+    top: 50px;
+}
+
+.kotak3 {
+    background-color: lightskyblue;
+}
+
+
+/* style absolut */
+.container {
+    width: 800px;
+    border: 10px solid black;
+}
+
+.container .kotak1 {
+    background-color: greenyellow;
+}
+
+.container .kotak2 {
+    background-color: salmon;
+}
+
+.container .kotak3 {
+    background-color: lightseagreen;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border & Box-Sizing</title>
+    <style>
+
+        div {
+            width: 600px;
+            background-color: gold;
+            margin: 15px auto;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            /* width: 570px; */
+            padding: 10px;
+            border: 5px solid black;
+        }
+        
+        .box2 {
+            /* width: 530px; */
+            padding: 30px;
+            border: 20px dashed black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        cara penulisan border dalam satu baris :
+        border: width style color;
+        border: 5px solid black;
+        
+        style pada border:
+        - solid 
+        - dotted
+        - dashed
+        - double
+    -->
+    
+    <div class="box1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iusto cum magni rem, pariatur ipsum!</p>
+    </div>
+
+    <div class="box2">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iusto cum magni rem, pariatur ipsum!</p>
+    </div>
+
+</body>
+</html>

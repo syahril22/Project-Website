@@ -1,0 +1,28 @@
+/* style absolut */
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.container {
+    width: 800px;
+    height: 400px;
+    border: 10px solid black;
+    position: relative;
+}
+
+.container .kotak1 {
+    background-color: greenyellow;
+}
+
+.container .kotak2 {
+    background-color: salmon;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .kotak3 {
+    background-color: lightseagreen;
+}

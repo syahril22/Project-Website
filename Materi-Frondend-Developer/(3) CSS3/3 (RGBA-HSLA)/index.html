@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA & HSLA</title>
+    <style>
+        body {
+            background-image: url(img/bg.jpg);
+            background-repeat: repeat;
+        }
+
+        .parent {
+            width: 300px;
+            height: 300px;
+            background-color: rgba(245, 40, 145, 0.5);
+        }
+
+        .child {
+            width: 100px;
+            height: 100px;
+            background-color: #ffff;
+        }
+
+        .parent2 {
+            width: 300px;
+            height: 300px;
+            margin-top: 50px;
+            background-color: HSLA(300, 100%, 25%, 0.5);
+        }
+
+        .child2 {
+            width: 100px;
+            height: 100px;
+            background-color: #ffff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 
+        RGBA & HSLA Memberikan transparansi terhadap warna, sedangkan Opacity memberikan Transparansi terhadap element
+     -->
+    
+    <!-- 
+        Memberikan Transparansi dengan menggunakan RGBA maka elemen child yang terdapat pada parent nya tidak akan ikut trasnparant berbeda degan Opacity yang semuanya menjadi transparant. 
+    -->
+
+    <!-- RGBA -->
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+    <!-- HSLA -->
+    <div class="parent2">
+        <div class="child2"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+/* PSEUDO-CLASS YANG BERHUBUNGAN DENGAN LINK */
+/* mengatur linknya */
+.pertama:link{
+    font-size: 40px;
+}
+
+/* ketika mouse nya di arahkan */
+.pertama:hover{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* ketika link nya di tekan */
+.pertama:active{
+    font-style: italic;
+}
+
+/* ketika link nya sudah di tekan/klik */
+.pertama:visited{
+    color: teal;
+}
+/* AKHIR */
+
+
+/* PSEUDO-CLASS YANG BERHUBUNGAN DENGAN POSISI ELEMENT */
+/* memilih element pertama */
+li:first-child a{
+    color: green;
+}
+
+/* memilih element terakhir */
+li:last-child a{
+    color: red;
+}
+
+/* memilih elemet dengan disesuaikan */
+li:nth-child(7) a{
+    font-style: italic;
+}
+
+/* dengan kelipatan, contoh setiap kelipatan 2 maka : */
+/* li:nth-child(2n) a{
+    color: yellowgreen;
+} */
+
+/* kalo mau di mulainya dari 1 maka :*/
+li:nth-child(2n-1) a{
+    color: yellowgreen;
+}
+
+/* untuk setiap yang genap */
+li:nth-child(even) a{
+    font-size: 30px;
+}
+
+/* setiap yang ganjil */
+li:nth-child(odd) a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* memilih terus kasig style hover */
+li:nth-child(7) a:hover{
+    color: tomato;
+}
+
+p:first-of-type{
+    color: green;
+}
